@@ -1,6 +1,6 @@
 
 // Assignment Code with an EventListener added.
-document.querySelector("#generate") .addEventListener("click", writePassword);
+ document.querySelector("#generate") .addEventListener("click", writePassword);
 
 // Created Multiple Array's with Numbers of 0-9 & Letter's A-Z both Captial and Lower Case.
 var num = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -17,7 +17,7 @@ var confirmLowerCase;
 
 // Prompt to confirm how many characters the user would like in their password
 function generatePassword() {
-  var confirmLength = (prompt("How many characters would you like your password to contain?"));
+   var confirmLength =  (prompt("How many characters would you like your password to contain?"));
 
   // This while loop will loop if the user inputs a choice less than 7 and greater than 128
   while(confirmLength < 8 || confirmLength > 128) {
@@ -35,7 +35,7 @@ function generatePassword() {
     var confirmUpperCase = confirm("Select OK to confirm if you would like to include uppercase characters");
       // Loop if answer is outside the parameters 
       while(confirmUpperCase === false && confirmLowerCase === false && confirmSpecialCharacter === false && confirmNumericCharacter === false) {
-        alert("You must choose at least one parameter");
+        alert("You must choose at least one number, lower case character, upper case character, or a special charcter");
         var confirmSpecialCharacter = confirm("Select OK to confirm if you would like to include special characters");
         var confirmNumericCharacter = confirm("Select OK to confirm if you would like to include numeric characters");    
         var confirmLowerCase = confirm("Select OK to confirm if you would like to include lowercase characters");
