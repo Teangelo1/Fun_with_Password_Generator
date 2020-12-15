@@ -27,4 +27,6 @@ Creating this password generator was honestly challenging but very fun.
 **Once the users inputs a number between 8 - 128, they will then be prompted with question's for the criteria of their secure password such as: Adding a special character, captial letters and numbers.**
 
 ![Random Password that was generated](/images/screenshot3.png)
+
+**Here is the deployed URL:** [Secure Password Generator](https://teangelo1.github.io/Fun_with_Password_Generator/)
 >Keep passwords secure at all times everyone!
