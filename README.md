@@ -13,7 +13,7 @@ Creating this password generator was honestly challenging but very fun.
 
 **Criteria for a secure password:**
 
-* Password lenght must be between 8 - 128 Characters.
+* Password length must be between 8 - 128 Characters.
 * Password must contain at least 1 capital letter, special character, and a number.
 
 **What exactly will the user experience look like?**

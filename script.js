@@ -1,6 +1,6 @@
 
 // Assignment Code with an EventListener added.
- document.querySelector("#generate") .addEventListener("click", writePassword);
+  document.querySelector("#generate") .addEventListener("click", writePassword);
 
 // Created Multiple Array's with Numbers of 0-9 & Letter's A-Z both Captial and Lower Case.
 var num = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
