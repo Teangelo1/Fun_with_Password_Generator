@@ -5,7 +5,7 @@ The goal here was to create a secure random password generator using JavaScript.
 
 Creating this password generator was honestly challenging but very fun.
 
-###Steps used in JavaScript to create this project:
+### Steps used in JavaScript to create this project:
 * Multiple Varialbes with values assigned to use throughout our code.
 * While & For loops to have specific conditions met.
 * Setting up functions and Calling functions to perform specific task.
